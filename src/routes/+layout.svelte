@@ -3,7 +3,7 @@
     import Header from "./Header.svelte";
 </script>
 
-<div class="app  p-0 bg-gray-500 flex flex-col">
+<div class="app bg-gray-200 p-0 flex flex-col">
     <Header />
     <main>
         <slot /> 

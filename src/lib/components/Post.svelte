@@ -5,9 +5,10 @@
 
 </script>
 
-<div class="post bg-white">
+<div class="post bg-white my-4 rounded-lg">
     <PostHeader></PostHeader>
-    <div>title</div>
-    <PostBody> </PostBody>
+    <PostBody text='some text'>
+        <div>some content</div>
+    </PostBody>
     <PostFooter></PostFooter>
 </div>
