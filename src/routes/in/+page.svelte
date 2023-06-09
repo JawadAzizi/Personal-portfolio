@@ -2,8 +2,11 @@
 
     import ProfileCard from "$lib/components/profile/ProfileCard.svelte";
     import Card from "$lib/components/Card.svelte";
+    import CardWithPhoto from "$lib/components/CardWithPhoto.svelte";
+    import userIcon from '$lib/icon/user.svg'
 
 </script>
+
 
 
 <div class="in grid grid-cols-12">
@@ -41,13 +44,24 @@
 
         </Card>
         <Card title ='experience'>
-            <p>some thing about experience</p>
+            <CardWithPhoto title='web 3 frontend developer' src='{userIcon}'>
+                <div>full time</div>
+                <div>may 2020 - june-2023</div>
+                <div>Afgnanistan</div>
+            </CardWithPhoto>
 
         </Card>
         <Card title ='Education'>
-            <div class="flex">
-                Eduction
-            </div>
+            <CardWithPhoto title='Kabul university' src='{userIcon}'>
+                <div>bachelor of computer sciense</div>
+                <div>2019 - 2023</div>
+                <div class="p-2">
+                    <p>data structure and algorithms, software engineering, project management
+                        database design and implementation
+                    </p>
+
+                </div>
+            </CardWithPhoto>
         </Card>
         <Card title ='Skills'>
             <div class="flex">
