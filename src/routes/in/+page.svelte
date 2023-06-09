@@ -34,7 +34,9 @@
         </Card>
         <Card title ='about'>
             <p>
-                somet hing aobut me
+                front end React developer 
+                typescript javascript developer 
+                tailwindcss developer
             </p>
 
         </Card>
@@ -54,6 +56,8 @@
         </Card>
     </div>
     <div class="col-span-3">
-        people you may know
+        <Card title = 'people you may know'>
+            people you may know
+        </Card>
     </div>
 </div>
