@@ -3,9 +3,9 @@
 </script>
 
 
-<div class="grid grid-cols-12  justify-between content-stretch  "> 
+<div class="grid grid-cols-12 "> 
     <div class="  col-span-3 flex justify-center">
-        <div>right</div>
+        <div class="card">right</div>
     </div>
     <div class=" col-span-6   justify-center ">
         <Post ></Post>

@@ -29,7 +29,9 @@
         <HeaderItem href='/jobs' title='job' icon={jobIcon} ></HeaderItem>
         <HeaderItem href='/messaging' title='message' icon={messageIcon} ></HeaderItem>
         <HeaderItem href='/notifications' title='notification' icon={notificationIcon} ></HeaderItem>
-        <HeaderItem title='profile' icon='{userIcon}' ></HeaderItem>
+        <HeaderItem title='profile' icon='{userIcon}' >
+          <a href="/in">view profile</a>
+        </HeaderItem>
       </ul>
     </div>
     <div class="flex" style="border-left: 1px solid rgba(23,23,23,0.2)" >

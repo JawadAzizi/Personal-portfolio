@@ -1,2 +1,9 @@
 @tailwind base;
 @tailwind utilities;
+@tailwind components;
+
+@layer components{
+    .btn-primary {
+        @apply py-2 bg-blue-500 text-white font-semibold hover:bg-blue-700
+    }
+}
