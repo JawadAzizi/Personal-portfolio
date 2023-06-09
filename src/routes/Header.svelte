@@ -9,6 +9,7 @@
   import postIcon from '../lib/icon/postJob.svg'
   import HeaderItem from '../lib/components/HeaderItem.svelte'
   import searchIcon from '../lib/icon/search.svg'
+  import userIcon from '../lib/icon/user.svg'
 
 </script>
 
@@ -23,12 +24,12 @@
     </div>
     <div class="col-span-5">
       <ul class="flex  ">
-        <HeaderItem title='home' icon={homeIcon} ></HeaderItem>
-        <HeaderItem title='network' icon={networkIcon} ></HeaderItem>
-        <HeaderItem title='job' icon={jobIcon} ></HeaderItem>
-        <HeaderItem title='message' icon={messageIcon} ></HeaderItem>
-        <HeaderItem title='notification' icon={notificationIcon} ></HeaderItem>
-        <HeaderItem title='profile' icon='' ></HeaderItem>
+        <HeaderItem href ='/feed' title='home' icon={homeIcon} ></HeaderItem>
+        <HeaderItem href='/mynetwork' title='network' icon={networkIcon} ></HeaderItem>
+        <HeaderItem href='/jobs' title='job' icon={jobIcon} ></HeaderItem>
+        <HeaderItem href='/messaging' title='message' icon={messageIcon} ></HeaderItem>
+        <HeaderItem href='/notifications' title='notification' icon={notificationIcon} ></HeaderItem>
+        <HeaderItem title='profile' icon='{userIcon}' ></HeaderItem>
       </ul>
     </div>
     <div class="flex" style="border-left: 1px solid rgba(23,23,23,0.2)" >

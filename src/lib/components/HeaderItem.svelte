@@ -1,12 +1,12 @@
 <script lang='ts'>
     export let title: string;
     export let icon: string;
-    export let href: string | null = null;
+    export let href: string | undefined = undefined;
 
 </script>
 
 <li class="header-item p-1 flex justify-center text-center">
-    {#if href}
+    {#if !href}
         <img class=" rounded m-auto" width='30px' src="{icon}" alt="title">
         <div class="text-center m-auto">{title}</div>
     {:else}
