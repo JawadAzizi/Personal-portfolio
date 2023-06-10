@@ -1,6 +1,10 @@
 <script lang="ts">
     import Card from "$lib/components/Card.svelte";
     import CardWithPhoto from "$lib/components/CardWithPhoto.svelte";
+    import PeopleCard from "$lib/components/PeopleCard.svelte";
+    import userIcon from '$lib/icon/user.svg'
+    import background from '$lib/image/8.jpg'
+
 
 </script>
 
@@ -35,5 +39,70 @@
         </Card>
 
     </div>
-    <div class="col-span-8"></div>
+    <div class="col-span-8 pb-2">
+        <Card title='Invitations'>
+            <CardWithPhoto title='someone' src='{userIcon}'>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-8">
+                        front end engineer
+                    </div>
+                    <div class="col-span-4">
+                        <button class="border rounded-xl p-1 py-2  w-30">ignore</button>
+                        <button class="btn-primary rounded-xl p-1 py-2 w-30">accept</button>
+                    </div>
+                </div>
+            </CardWithPhoto>
+            <CardWithPhoto title='someone' src='{userIcon}'>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-8">
+                        front end engineer
+                    </div>
+                    <div class="col-span-4">
+                        <button class="border rounded-xl p-1 py-2  w-30">ignore</button>
+                        <button class="btn-primary rounded-xl p-1 py-2 w-30">accept</button>
+                    </div>
+                </div>
+            </CardWithPhoto>
+            <CardWithPhoto title='someone' src='{userIcon}'>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-8">
+                        front end engineer
+                    </div>
+                    <div class="col-span-4">
+                        <button class="border rounded-xl p-1 py-2  w-30">ignore</button>
+                        <button class="btn-primary rounded-xl p-1 py-2 w-30">accept</button>
+                    </div>
+                </div>
+            </CardWithPhoto>
+
+        </Card>
+        <Card title='Invitations'>
+            <div  class="flex ">
+                <div>
+                    <PeopleCard title = 'someone' profile  = "{userIcon}" backgound = '{background}'>
+                        <div>ceo and founder of company A</div>
+                    </PeopleCard>
+
+                </div>
+                <div>
+                    <PeopleCard title = 'someone' profile  = "{userIcon}" backgound = '{background}'>
+                        <div>ceo and founder of company A</div>
+                    </PeopleCard>
+
+                </div>
+                <div>
+                    <PeopleCard title = 'someone' profile  = "{userIcon}" backgound = '{background}'>
+                        <div>ceo and founder of company A</div>
+                    </PeopleCard>
+
+                </div>
+
+
+                
+               
+            </div>
+            
+
+        </Card>
+    </div>
 </div>
