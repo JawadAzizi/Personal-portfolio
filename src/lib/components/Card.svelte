@@ -3,7 +3,7 @@
 
 </script>
 
-<div class=" card bg-white rounded-lg my-2">
+<div class=" card bg-white rounded-lg m-2">
     <div class="card-header font-bold p-2">
         {title}
     </div>
