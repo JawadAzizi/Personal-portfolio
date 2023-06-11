@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { relative } from "__sveltekit/paths";
-
     export let href: string 
     export let rounded: boolean
     export let width: string| undefined = 'w-14'

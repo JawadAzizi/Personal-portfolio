@@ -14,7 +14,7 @@
 </script>
 
 <nav class="sticky px-14 flex  justify-between align-middle bg-white">
-    <div class=" flex  p-1 items-center col-span-3">
+    <div class=" flex  p-0 items-center col-span-3">
         <img src="{linkeInLogo}" alt="linkedin logo" class="w-10 h-8">
         <div class="relative rounded flex w-full items-center ">
           <!-- <img class="rounded w-6 align-middle absolute" src="{searchIcon}" alt="search"> -->
@@ -22,7 +22,7 @@
           <img class="absolute" src="{searchIcon}" alt="search icon">
         </div>
     </div>
-    <div class="col-span-5">
+    <div class="col-span-5 p-0">
       <ul class="flex  ">
         <HeaderItem href ='/feed' title='home' icon={homeIcon} ></HeaderItem>
         <HeaderItem href='/mynetwork' title='network' icon={networkIcon} ></HeaderItem>
