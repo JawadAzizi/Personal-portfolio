@@ -6,25 +6,39 @@
     import background from '$lib/image/8.jpg'
     import MessageList from "./MessageList.svelte";
     import ChatHistory from "./ChatHistory.svelte";
-
-
 </script>
 
-
 <div class="mynetwork grid grid-cols-12">
-    
     <div class="col-span-8 pb-2 grid grid-cols-12 border-2 rounded-lg bg-white border-gray-300" style="border-width: 0.5px;">
         <div class="col-span-5">
             <MessageList>
-
+                <CardWithPhoto src ={userIcon} title ='Someone'></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone '></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'></CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone'></CardWithPhoto>
             </MessageList>
         </div>
         <div class="col-span-7">
-            <ChatHistory>
-
+            <ChatHistory title = 'chat dialog'> 
+                <CardWithPhoto src ={userIcon} title ='Someone'>
+                    hellow how are you
+                </CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'>
+                     i am find  
+                </CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'>
+                    thank you
+                </CardWithPhoto>
+                <CardWithPhoto src ={userIcon} title ='Someone else'>
+                    how about you
+                </CardWithPhoto>
             </ChatHistory>
         </div>
-        
     </div>
     <div class="col-span-4">
         <Card title='Mannage my netword'>
@@ -32,6 +46,5 @@
                 try linked in premium
             </div>
         </Card>
-
     </div>
 </div>
