@@ -2,10 +2,11 @@
     import CardWithPhoto from "$lib/components/CardWithPhoto.svelte";
     import userIcon from '$lib/icon/user.svg'
     export let title:string|undefined = ''
+    import { fade } from "svelte/transition";
 
 </script>
 
-<div class="message-list border-gray-300 "  style="border-width: 0.5px;"s>
+<div transition:fade={{delay: 0, duration: 300}} class="message-list border-gray-300 "  style="border-width: 0.5px;"s>
     <div class=" px-2 border-gray-300" style="border-width: 0.5px;">
         {title}
     </div>

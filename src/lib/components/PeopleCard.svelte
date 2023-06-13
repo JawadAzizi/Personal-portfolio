@@ -16,7 +16,7 @@
             <img src="{profile}" alt="avatar" class=" rounded-lg w-32">
         </div>
     </div>
-    <div class="grid grid-cols-12  p-5">
+    <div class="">
         <div  class=" col-span-9">
             <h1>{title}</h1>
         </div>

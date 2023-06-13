@@ -10,7 +10,7 @@
 
 <div class="mynetwork grid grid-cols-12">
     <div class="col-span-8 pb-2 grid grid-cols-12 border-2 rounded-lg bg-white border-gray-300" style="border-width: 0.5px;">
-        <div class="col-span-5">
+        <div class="col-span-5 content-stretch">
             <MessageList>
                 <CardWithPhoto src ={userIcon} title ='Someone'></CardWithPhoto>
                 <CardWithPhoto src ={userIcon} title ='Someone else'></CardWithPhoto>
@@ -23,7 +23,7 @@
                 <CardWithPhoto src ={userIcon} title ='Someone'></CardWithPhoto>
             </MessageList>
         </div>
-        <div class="col-span-7">
+        <div class="col-span-7 content-stretch">
             <ChatHistory title = 'chat dialog'> 
                 <CardWithPhoto src ={userIcon} title ='Someone'>
                     hellow how are you

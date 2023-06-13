@@ -10,6 +10,10 @@
   import HeaderItem from '../lib/components/HeaderItem.svelte'
   import searchIcon from '../lib/icon/search.svg'
   import userIcon from '../lib/icon/user.svg'
+  import { page } from '../stores/page'
+
+
+
 
 </script>
 
@@ -24,12 +28,12 @@
     </div>
     <div class="col-span-5 p-0">
       <ul class="flex  ">
-        <HeaderItem href ='/feed' title='home' icon={homeIcon} ></HeaderItem>
-        <HeaderItem href='/mynetwork' title='network' icon={networkIcon} ></HeaderItem>
-        <HeaderItem href='/jobs' title='job' icon={jobIcon} ></HeaderItem>
-        <HeaderItem href='/messaging' title='message' icon={messageIcon} ></HeaderItem>
-        <HeaderItem href='/notifications' title='notification' icon={notificationIcon} ></HeaderItem>
-        <HeaderItem title='profile' icon='{userIcon}' >
+        <HeaderItem on:click={()=>($page = {feed: true})} on:keypress={()=>($page = {feed: true})} active= {$page.feed?? false} href ='/feed' title='home' icon={homeIcon} ></HeaderItem>
+        <HeaderItem on:click={()=>($page = {mynetwork: true})} on:keypress={()=>($page = {mynetwork: true})}  active= {$page.mynetwork?? false} href='/mynetwork' title='network' icon={networkIcon} ></HeaderItem>
+        <HeaderItem on:click={()=>($page = {jobs: true})} on:keypress={()=>($page = {jobs: true})}  active= {$page.jobs?? false} href='/jobs' title='job' icon={jobIcon} ></HeaderItem>
+        <HeaderItem on:click={()=>($page = {messaging: true})} on:keypress={()=>($page = {messaging: true})}  active= {$page.messaging?? false} href='/messaging' title='message' icon={messageIcon} ></HeaderItem>
+        <HeaderItem on:click={()=>($page = {notification: true})} on:keypress={()=>($page = {notification: true})}  active= {$page.notification?? false} href='/notifications' title='notification' icon={notificationIcon} ></HeaderItem>
+        <HeaderItem on:click={()=>($page = {profile: true})} on:keypress={()=>($page = {profile: true})}  active= {$page.profile?? false} title='profile' icon='{userIcon}' >
           <a href="/in">view profile</a>
         </HeaderItem>
       </ul>
