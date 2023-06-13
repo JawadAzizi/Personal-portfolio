@@ -68,8 +68,8 @@
                 <div>bachelor of computer sciense</div>
                 <div>2019 - 2023</div>
                 <div class="p-2">
-                    <p>data structure and algorithms, software engineering, project management
-                        database design and implementation
+                    <p>
+                       Studies: Software Engineering, Data Structure, Algorithm, Application development , Web Development, System Design, Research Methodologies, ADBMS, RDBMS, Machin Learning, Data Science, Mobile Development, Software Security etc.
                     </p>
 
                 </div>

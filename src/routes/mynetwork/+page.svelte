@@ -82,7 +82,6 @@
                     <PeopleCard title = 'someone' profile  = "{userIcon}" backgound = '{background}'>
                         <div>ceo and founder of company A</div>
                     </PeopleCard>
-
                 </div>
                 <div>
                     <PeopleCard title = 'someone' profile  = "{userIcon}" backgound = '{background}'>
