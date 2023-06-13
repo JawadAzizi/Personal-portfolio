@@ -43,34 +43,34 @@
         <Card title='Invitations'>
             <CardWithPhoto title='someone' src='{userIcon}'>
                 <div class="grid grid-cols-12">
-                    <div class="col-span-8">
+                    <div class="col-span-6">
                         front end engineer
                     </div>
-                    <div class="col-span-4">
-                        <button class="border rounded-xl p-1 py-2  w-30">ignore</button>
-                        <button class="btn-primary rounded-xl p-1 py-2 w-30">accept</button>
+                    <div class="col-span-6">
+                        <button class="btn">ignore</button>
+                        <button class="btn-primary">accept</button>
                     </div>
                 </div>
             </CardWithPhoto>
             <CardWithPhoto title='someone' src='{userIcon}'>
                 <div class="grid grid-cols-12">
-                    <div class="col-span-8">
+                    <div class="col-span-6">
                         front end engineer
                     </div>
-                    <div class="col-span-4">
-                        <button class="border rounded-xl p-1 py-2  w-30">ignore</button>
-                        <button class="btn-primary rounded-xl p-1 py-2 w-30">accept</button>
+                    <div class="col-span-6">
+                        <button class="btn">ignore</button>
+                        <button class="btn-primary ">accept</button>
                     </div>
                 </div>
             </CardWithPhoto>
             <CardWithPhoto title='someone' src='{userIcon}'>
                 <div class="grid grid-cols-12">
-                    <div class="col-span-8">
+                    <div class="col-span-6">
                         front end engineer
                     </div>
-                    <div class="col-span-4">
-                        <button class="border rounded-xl p-1 py-2  w-30">ignore</button>
-                        <button class="btn-primary rounded-xl p-1 py-2 w-30">accept</button>
+                    <div class="col-span-6">
+                        <button class="btn">ignore</button>
+                        <button class="btn-primary ">accept</button>
                     </div>
                 </div>
             </CardWithPhoto>

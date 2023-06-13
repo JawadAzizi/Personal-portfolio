@@ -30,8 +30,8 @@
             friends
         </div>
         <div>
-            <button class="bg-blue-600 rounded-2xl p-1 ">message</button>
-            <button class="border rounded-2xl">more</button>
+            <button class="btn-primary ">message</button>
+            <button class="btn">more</button>
         </div>
     </div>
 </div>

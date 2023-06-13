@@ -17,9 +17,9 @@
     <div class="grid grid-cols-12  p-5">
         <div  class=" col-span-9">
             <!-- info -->
-            <h1>name</h1>
-            <h6>info</h6>
-            <div>some other info</div>
+            <h1 class=" font-bold text-3xl">Jawad Azizi</h1>
+            <h6>Fullstack- Svelte | SvelteKit | JS | TS | Nodejs | express</h6>
+            
             <div>connection</div>
         </div>
         <div class="p-3  col-span-3">
@@ -33,8 +33,8 @@
             friends
         </div>
         <div>
-            <button class="bg-blue-600 rounded-2xl p-1 ">message</button>
-            <button class="border rounded-2xl">more</button>
+            <button class="btn-primary ">message</button>
+            <button class="btn ">more</button>
         </div>
     </div>
 

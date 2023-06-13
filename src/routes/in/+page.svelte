@@ -37,19 +37,31 @@
         </Card>
         <Card title ='about'>
             <p>
-                front end React developer 
-                typescript javascript developer 
-                tailwindcss developer
+                I amd last year student of computer sciense degree.
+                I am interested in web development technologies.
+                Fullstack ,
+                Svelte ,
+                javascript, typescript ,nodejs, mongodb, mysql, 
+                tailwindcss,
+                React  
             </p>
 
         </Card>
-        <Card title ='experience'>
-            <CardWithPhoto title='web 3 frontend developer' src='{userIcon}'>
-                <div>full time</div>
-                <div>may 2020 - june-2023</div>
-                <div>Afgnanistan</div>
+        <Card title ='Projects'>
+            <CardWithPhoto title='focus assitant app' src='{userIcon}'>
+                <p class=" p-2">
+                    this is a fullstack web application with user authentication.
+                    this application can help you with your projects and tasks and using this application 
+                    you can work on your projects more precisly.
+                    <a href=''>click</a> for live demo
+                </p>
             </CardWithPhoto>
-
+            <CardWithPhoto title='svelte admin apanel' src='{userIcon}'>
+                <p class="p-2">
+                    svelte admin panel is a full fleged and user friendly admin panel, it has ready to use commponents and layouts.
+                    it can help you to customize easily and fast 
+                </p>
+            </CardWithPhoto>
         </Card>
         <Card title ='Education'>
             <CardWithPhoto title='Kabul university' src='{userIcon}'>
@@ -64,8 +76,8 @@
             </CardWithPhoto>
         </Card>
         <Card title ='Skills'>
-            <div class="flex">
-                Skills
+            <div class="p-3">
+                svelte, typescript, javascript, react, nodejs, express, tailwindcss, mongodb.
             </div>
         </Card>
     </div>
