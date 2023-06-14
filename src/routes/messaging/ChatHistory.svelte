@@ -68,7 +68,7 @@
                     </article>
                 {/each}
             </div>
-            <div class="message-section sticky top-[100vh] justify-center flex">
+            <div class="message-section sticky top-[100vh]">
                 <input  class=" border static end-9  " on:keydown={handleKeydown}>
             </div>
     </div>

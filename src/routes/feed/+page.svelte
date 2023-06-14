@@ -1,5 +1,6 @@
 <script lang="ts">
     import Post from '$lib/components/Post.svelte'
+	import StartApost from './StartApost.svelte';
 
 </script>
 <div class="grid grid-cols-12 "> 
@@ -7,6 +8,7 @@
         <div class="card">right</div>
     </div>
     <div class=" col-span-6   justify-center ">
+        <StartApost></StartApost>
         <Post ></Post>
         <Post ></Post>
         <Post ></Post>
