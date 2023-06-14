@@ -40,7 +40,6 @@
             <img src="{article}" alt="wirte article" class="w-6">  
             <div class="no-wrap flex content-center items-center justify-center">Write article</div>
         </button>
-        
 
     </div>
 
