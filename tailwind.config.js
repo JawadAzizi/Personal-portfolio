@@ -6,7 +6,10 @@ export default {
         fontFamily: {
           'poppins': ['Poppins', 'sans-serif'],
           'Josefin': ['Josefin Slab', 'serif'],
-          'Nanum': ['Nanum Myeongjo', 'serif']
+          'Nanum': ['Nanum Myeongjo', 'serif'],
+          'Antic': ['Antic Slab', 'serif'],
+          'Dosis': ['Dosis', 'sans-serif'],
+          'Roboto': ['Roboto Slab', 'serif'],
         },
 
     },

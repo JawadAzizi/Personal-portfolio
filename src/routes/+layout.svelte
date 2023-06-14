@@ -5,7 +5,7 @@
 
 <div class="app bg-gray-200 p-0 flex flex-col">
     <Header />
-    <main class="px-14 py-1">
+    <main class="px-14 py-1 font-Roboto font-normal">
         <slot /> 
     </main>
     

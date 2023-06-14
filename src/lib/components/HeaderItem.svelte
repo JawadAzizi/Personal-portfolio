@@ -13,7 +13,7 @@
 
 </script>
 
-<li on:click on:keypress transition:fade={{delay: 250, duration: 1000}} class="header-item font-Nanum font-thin opacity-70 hover:opacity-100   p-1 flex justify-center text-center flex-col {active? 'border-b-2 border-blue-700': ''}">
+<li on:click on:keypress transition:fade={{delay: 250, duration: 1000}} class="header-item font-poppins font-light  text-sm opacity-70 hover:opacity-100   p-1 flex justify-center text-center flex-col {active? 'border-b-2 border-blue-700': ''}">
     {#if !href}
         <img class=" rounded m-auto" width='30px' src="{icon}" alt="title">
         <div class="text-center m-auto flex">
