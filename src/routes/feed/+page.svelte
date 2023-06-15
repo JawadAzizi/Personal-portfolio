@@ -4,10 +4,14 @@
     import CardWithPhoto from '$lib/components/CardWithPhoto.svelte';
     import userIcon from '$lib/icon/user.svg'
     import Card from '$lib/components/Card.svelte';
+	import ProfilePreview from './ProfilePreview.svelte';
 
 </script>
 <div class="grid grid-cols-12 "> 
     <div class="  col-span-3 flex justify-center">
+        <ProfilePreview>
+            
+        </ProfilePreview>
         
     </div>
     <div class=" col-span-6   justify-center ">
