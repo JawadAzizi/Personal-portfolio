@@ -2,20 +2,14 @@
     import CardWithPhoto from "$lib/components/CardWithPhoto.svelte";
     import uesrIcon from "$lib/icon/user.svg"
     import Card from "$lib/components/Card.svelte";
+	import LinkedinCard from "$lib/components/LinkedinCard.svelte";
 
 </script>
-
-
-
-
 <div class="notification grid grid-cols-12">
     <div class="col-span-3">
         <Card title='manager your notification settingss'></Card>
-
-
     </div>
     <div class="col-span-6">
-
         <CardWithPhoto   src='{uesrIcon}' >
             <span class="nt-card__text--3-line">
                 <!---->Trending post from<span class="white-space-pre"> </span><strong><!---->freeCodeCamp<!----></strong><!---->: If you want to contribute to open source, that's wonderful - but how do you find projects &amp; issues to work on? Don't worry – Larry shows you how. In this tutorial, he gives you tips to help you search issues, repos, &amp; topics effectively on GitHub.<!---->
@@ -46,6 +40,7 @@
 
     </div>
     <div class="col-span-3">
-        unlock full power of linkedin
+        <LinkedinCard>
+        </LinkedinCard>
     </div>
 </div>

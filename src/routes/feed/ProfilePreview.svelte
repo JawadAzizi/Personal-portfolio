@@ -19,7 +19,10 @@
     <div class="p-5">
         <div  class="  w-full">
             <!-- info -->
-            <h1 class=" font-bold text-center text-xl">Jawad Azizi</h1>
+            <h1 class=" font-bold text-center text-xl">
+                <a href="/in" class=" hover:underline">Jawad Azizi</a>
+                
+            </h1>
             <h6 class=" text-sm font-light">Fullstack- Svelte | SvelteKit | JS | TS | Nodejs | express</h6>
         </div>
     </div>
