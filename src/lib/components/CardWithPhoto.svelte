@@ -1,5 +1,6 @@
 <script lang="ts">
     export let title: string| undefined = undefined
+    export let titleHref: string| undefined = undefined
     export let src: string| undefined 
     import { fade } from "svelte/transition";
 
@@ -10,9 +11,12 @@
         <img src="{src}" alt="card" class="w-20">
     </div>
     <div class="col-span-10">
-        <div class="font-medium  ">
-            <a href="/feed" class="hover:underline hover:text-blue-900">{title}</a>
-            
+        <div class="font-medium text-lg ">
+            {#if titleHref}
+                <a href="{titleHref}" class="hover:underline hover:text-blue-900">{title}</a>
+            {/if}
+                
+            <div class="cursor-default">{title}</div>
         </div>
         <div>
             <slot></slot>

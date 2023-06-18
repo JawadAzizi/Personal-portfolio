@@ -77,7 +77,20 @@
         </Card>
         <Card title ='Skills'>
             <div class="p-3">
-                svelte, typescript, javascript, react, nodejs, express, tailwindcss, mongodb.
+                <CardWithPhoto title = 'Svelte' src=''>
+                </CardWithPhoto>
+                <CardWithPhoto title = 'typescript' src=''>
+                </CardWithPhoto>
+                <CardWithPhoto title = 'javascript' src=''>
+                </CardWithPhoto>
+                <CardWithPhoto title = 'react' src=''>
+                </CardWithPhoto>
+                <CardWithPhoto title = 'nodejs' src=''>
+                </CardWithPhoto>
+                <CardWithPhoto title = 'express' src=''>
+                </CardWithPhoto>
+                <CardWithPhoto title = 'tailwindcss' src=''>
+                </CardWithPhoto>
             </div>
         </Card>
     </div>

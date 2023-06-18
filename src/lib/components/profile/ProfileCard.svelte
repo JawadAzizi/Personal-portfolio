@@ -2,7 +2,7 @@
     import backPhoto from '../../image/8.jpg'
     import userIcon from '../../icon/user.svg'
 	import CardWithPhoto from '../CardWithPhoto.svelte';
-    import KabulUnversityLogo from '$lib/image/kabulUniversityLogo.jpg'
+    import KabulUnversityLogo from '../../image/kabulUniversityLogo.jpg'
 
 </script>
 
@@ -39,6 +39,4 @@
             <button class="btn ">more</button>
         </div>
     </div>
-
-
 </div>

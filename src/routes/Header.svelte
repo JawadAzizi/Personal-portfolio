@@ -18,15 +18,15 @@
 </script>
 
 <nav class="sticky px-14 flex  justify-between align-middle bg-white">
-    <div class=" flex  p-0 items-center col-span-3">
+    <div class=" flex  p-0 pe-2 items-center col-span-3 ">
         <img src="{linkeInLogo}" alt="linkedin logo" class="w-10 h-8">
         <div class="relative rounded flex w-full items-center ">
           <!-- <img class="rounded w-6 align-middle absolute" src="{searchIcon}" alt="search"> -->
-          <input type='text'  class= " col-span-8 h-7 ps-8  bg-slate-200 focus:bg-slate-100 focus:min-w-full" placeholder="Search" > 
+          <input type='text'  class= " col-span-8 h-7 ps-8  bg-slate-200 focus:bg-slate-100 focus:min-w-full " placeholder="Search" > 
           <img class="absolute" src="{searchIcon}" alt="search icon">
         </div>
     </div>
-    <div class="col-span-5 p-0">
+    <div class="col-span-5 p-0 ">
       <ul class="flex  ">
         <HeaderItem on:click={()=>($page = {feed: true})} on:keypress={()=>($page = {feed: true})} active= {$page.feed?? false} href ='/feed' title='Home' icon={homeIcon} ></HeaderItem>
         <HeaderItem on:click={()=>($page = {mynetwork: true})} on:keypress={()=>($page = {mynetwork: true})}  active= {$page.mynetwork?? false} href='/mynetwork' title='Network' icon={networkIcon} ></HeaderItem>
@@ -38,7 +38,7 @@
         </HeaderItem>
       </ul>
     </div>
-    <div class="flex" style="border-left: 1px solid rgba(23,23,23,0.2)" >
+    <div class="flex"  style="border-left: 1px solid rgba(23,23,23,0.2)" >
       <HeaderItem title='for buisness' icon={menuIcon}></HeaderItem>
       <HeaderItem title='post job' icon={postIcon}></HeaderItem>
     </div>
