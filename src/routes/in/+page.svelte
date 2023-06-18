@@ -78,25 +78,65 @@
         <Card title ='Skills'>
             <div class="p-3">
                 <CardWithPhoto title = 'Svelte' src=''>
+                    <div>
+                        <progress value=0.9 ></progress>
+                    </div>
                 </CardWithPhoto>
                 <CardWithPhoto title = 'typescript' src=''>
+                    <div>
+                        <progress value=0.7 ></progress>
+                    </div>
                 </CardWithPhoto>
                 <CardWithPhoto title = 'javascript' src=''>
+                    <div>
+                        <progress value=0.8 ></progress>
+                    </div>
                 </CardWithPhoto>
                 <CardWithPhoto title = 'react' src=''>
+                    <div>
+                        <progress value=0.7 ></progress>
+                    </div>
                 </CardWithPhoto>
                 <CardWithPhoto title = 'nodejs' src=''>
+                    <div>
+                        <progress value=0.8 ></progress>
+                    </div>
                 </CardWithPhoto>
                 <CardWithPhoto title = 'express' src=''>
+                    <div>
+                        <progress value=0.9 ></progress>
+                    </div>
                 </CardWithPhoto>
                 <CardWithPhoto title = 'tailwindcss' src=''>
+                    <div>
+                        <progress value=0.6 ></progress>
+                    </div>
                 </CardWithPhoto>
             </div>
         </Card>
     </div>
     <div class="col-span-3">
         <Card title = 'people you may know'>
-            people you may know
+            <CardWithPhoto src="{userIcon}" title='SomeOne' titleHref='/in'>
+                <div class="text-sm font-light pt-0 mt-0">
+                    Founder of some company
+                </div>
+            </CardWithPhoto>
+            <CardWithPhoto src="{userIcon}" title='SomeOne' titleHref='/in'>
+                <div class="text-sm font-light pt-0 mt-0">
+                    Fullstack developer
+                </div>
+            </CardWithPhoto>
+            <CardWithPhoto src="{userIcon}" title='SomeOne' titleHref='/in'>
+                <div class="text-sm font-light pt-0 mt-0">
+                    Senior java developer
+                </div>
+            </CardWithPhoto>
+            <CardWithPhoto src="{userIcon}" title='SomeOne' titleHref='/in'>
+                <div class="text-sm font-light pt-0 mt-0">
+                    software engineer
+                </div>
+            </CardWithPhoto>
         </Card>
     </div>
 </div>

@@ -14,9 +14,10 @@
         <div class="font-medium text-lg ">
             {#if titleHref}
                 <a href="{titleHref}" class="hover:underline hover:text-blue-900">{title}</a>
+            {:else}
+                <div class="cursor-default">{title}</div>
             {/if}
                 
-            <div class="cursor-default">{title}</div>
         </div>
         <div>
             <slot></slot>
