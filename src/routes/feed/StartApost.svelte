@@ -24,19 +24,19 @@
     </div>
     <div class=" post-footer flex justify-between p-1">
         
-        <button class="flex rounded w-full  h-12 hover:bg-gray-100 justify-center content-center align-middle">
+        <button class="flex rounded w-full  h-12 hover:bg-gray-200 justify-center content-center align-middle">
             <img src="{photoIcon}" alt="phoso" class="w-6">  
             <div class="flex content-center items-center justify-center">Photo</div>
         </button>
-        <button class="flex rounded w-full h-12 hover:bg-gray-100 justify-center content-center align-middle">
+        <button class="flex rounded w-full h-12 hover:bg-gray-200 justify-center content-center align-middle">
             <img src="{videoIcon}" alt="post video" class="w-6">  
             <div class="flex content-center items-center justify-center">Video</div>
         </button>
-        <button class="flex rounded w-full h-12 hover:bg-gray-100 justify-center content-center align-middle">
+        <button class="flex rounded w-full h-12 hover:bg-gray-200 justify-center content-center align-middle">
             <img src="{eventIcon}" alt="post event" class="w-6">  
             <div class="flex content-center items-center justify-center">Event</div>
         </button>
-        <button class="flex rounded w-full h-12 hover:bg-gray-100 justify-center content-center align-middle">
+        <button class="flex rounded w-full h-12 hover:bg-gray-200 justify-center content-center align-middle">
             <img src="{article}" alt="wirte article" class="w-6">  
             <div class="no-wrap flex content-center items-center justify-center">Write article</div>
         </button>

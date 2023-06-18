@@ -20,7 +20,7 @@
         <div  class="  w-full">
             <!-- info -->
             <h1 class=" font-bold text-center text-xl">
-                <a href="/in" class=" hover:underline">Jawad Azizi</a>
+                <a href="/in" class=" hover:underline hover:text-blue-900">Jawad Azizi</a>
                 
             </h1>
             <h6 class=" text-sm font-light">Fullstack- Svelte | SvelteKit | JS | TS | Nodejs | express</h6>
@@ -30,13 +30,13 @@
     <div class="p-5 text-sm font-light">
         <div class=" flex justify-between hover:bg-gray-300">
             <div>
-                Connections 
+                <a href="/feed" class="hover:underline hover:text-blue-900">Connections</a>
             </div>
             <div>42</div>
         </div>
         <div class=" flex justify-between hover:bg-gray-300">
             <div>
-                who have viewed your profile 
+                <a href="/feed" class="hover:underline hover:text-blue-900">who have viewed your profile </a>
             </div>
             <div>6</div>
         </div>
@@ -45,19 +45,21 @@
     <div class="p-5 text-sm font-light">
         <div class=" flex justify-between hover:bg-gray-300">
             <div>
-                access prremium today
+                <a href="/feed" class="hover:underline hover:text-blue-900">access prremium today</a>
+                
             </div>
         </div>
         <div class=" flex justify-between hover:bg-gray-300">
             <div>
-                get hired faster try premuim free 
+                <a href="/feed" class="hover:underline hover:text-blue-900">get hired faster try premuim free </a>
+                
             </div>
         </div>
     </div>
     <hr>
     <div class="p-5 text-sm font-light">
         <div>
-            <a class="underline" href="#">my items</a> 
+            <a class="underline hover:underline hover:text-blue-900" href="/in"  >my items</a> 
         </div>
 
 

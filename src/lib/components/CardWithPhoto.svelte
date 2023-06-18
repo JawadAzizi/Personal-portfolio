@@ -10,8 +10,9 @@
         <img src="{src}" alt="card" class="w-20">
     </div>
     <div class="col-span-10">
-        <div class="font-bold p-2">
-            {title}
+        <div class="font-medium  ">
+            <a href="/feed" class="hover:underline hover:text-blue-900">{title}</a>
+            
         </div>
         <div>
             <slot></slot>

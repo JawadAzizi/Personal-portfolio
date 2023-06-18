@@ -5,6 +5,10 @@
     import userIcon from '$lib/icon/user.svg'
     import Card from '$lib/components/Card.svelte';
 	import ProfilePreview from './ProfilePreview.svelte';
+    import image1 from '$lib/image/9.jpg'
+    import image2 from '$lib/image/10.jpg'
+    import image3 from '$lib/image/11.jpg'
+    import image4 from '$lib/image/12.jpg'
 
 </script>
 <div class="grid grid-cols-12 "> 
@@ -16,9 +20,10 @@
     </div>
     <div class=" col-span-6   justify-center ">
         <StartApost></StartApost>
-        <Post ></Post>
-        <Post ></Post>
-        <Post ></Post>
+        <Post img="{image1}" text='this is my firs post'></Post>
+        <Post img="{image2}" text="this is my second post" ></Post>
+        <Post img="{image3}" text="this is my third post" ></Post>
+        <Post img="{image4}" text="this is my forth post" ></Post>
     </div>
     <div class=" col-span-3 flex justify-center">
         <Card title='add to your favorite'>

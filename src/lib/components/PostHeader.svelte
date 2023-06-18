@@ -11,11 +11,15 @@
         <Avatar href='{userIcon}' rounded></Avatar>
     </div>
     <div class="titles w-full">
-        <h3>title</h3>
-        <div>sedcription</div>
-        <div>time</div>
+        <h3 class="font-medium text-lg ">
+            <a href="/in" class="hover:underline hover:text-blue-900">title</a>
+        </h3>
+        <div class="font-light text-sm text-gray-900">Frontend developer - mearn stack developer</div>
+        <div class="font-light text-sm text-gray-900">time</div>
     </div>
     <div class="options">
-        <img src="{optionIcon}" alt="option">
+        <button class="p-3 m-1 hover:bg-gray-200 rounded-full">
+            <img src="{optionIcon}" alt="option" class="">
+        </button>
     </div>
 </div>
