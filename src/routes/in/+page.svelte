@@ -7,18 +7,12 @@
     import jsLogo from '$lib/image/jslogo.png'
     import tsLogo from '$lib/image/tslogo.png'
     import reactLogo from '$lib/image/reactlogo2.jpg'
-    import svelteLogo from '$lib/image/svelte3.jpg'
+    import svelteLogo from '$lib/image/sveltelogo.png'
     import nodeLogo from '$lib/image/nodejslogo.jpg'
     import expressLogo from '$lib/image/expressjs.jpg'
     import tailwindLogo from '$lib/image/tailwindlogo.png'
     
-    
-
-
-
 </script>
-
-
 
 <div class="in grid grid-cols-12">
     <div class="col-span-9">
