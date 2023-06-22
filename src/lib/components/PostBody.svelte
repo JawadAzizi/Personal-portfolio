@@ -1,6 +1,5 @@
 <script lang="ts">
     export let text: string|undefined
-    export let img: string|undefined
 
 </script>
 
@@ -13,10 +12,5 @@
     </div>
     <div class="post-object ">
         <slot></slot>
-        {#if img}
-            <div class="w-full ">
-                <img src="{img}" alt="post" class='w-full h-auto max-h-screen'>
-            </div> 
-        {/if}
     </div>
 </div>

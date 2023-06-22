@@ -2,15 +2,18 @@
     import PostBody from "./PostBody.svelte";
     import PostFooter from "./PostFooter.svelte";
     import PostHeader from "./PostHeader.svelte";
-    export let text: string|undefined = undefined
-    export let img: string|undefined = undefined
+    export let id: number
+    export let title: string
+    export let text: string|undefined
+    export let img: string
     
 
 </script>
 
 <div class="post bg-white my-4 rounded-lg">
-    <PostHeader></PostHeader>
-    <PostBody img="{img}"  text='{text}'>
+    <PostHeader title = '{title}' img = '{img}'></PostHeader>
+    <PostBody  text='{text}'>
+        <slot></slot>
     </PostBody>
-    <PostFooter></PostFooter>
+    <PostFooter {id}></PostFooter>
 </div>

@@ -4,6 +4,14 @@
     import Card from "$lib/components/Card.svelte";
     import CardWithPhoto from "$lib/components/CardWithPhoto.svelte";
     import userIcon from '$lib/icon/user.svg'
+    import jsLogo from '$lib/image/jslogo.png'
+    import tsLogo from '$lib/image/tslogo.png'
+    import reactLogo from '$lib/image/reactlogo2.jpg'
+    import svelteLogo from '$lib/image/svelte3.jpg'
+    import nodeLogo from '$lib/image/nodejslogo.jpg'
+    import expressLogo from '$lib/image/expressjs.jpg'
+    import tailwindLogo from '$lib/image/tailwindlogo.png'
+    
     
 
 
@@ -80,37 +88,37 @@
         </Card>
         <Card title ='Skills'>
             <div class="p-3">
-                <CardWithPhoto title = 'Svelte' src=''>
+                <CardWithPhoto title = 'Svelte' src='{svelteLogo}'>
                     <div>
                         <progress value=0.9 ></progress>
                     </div>
                 </CardWithPhoto>
-                <CardWithPhoto title = 'typescript' src=''>
+                <CardWithPhoto title = 'typescript' src='{tsLogo}'>
                     <div>
                         <progress value=0.7 ></progress>
                     </div>
                 </CardWithPhoto>
-                <CardWithPhoto title = 'javascript' src=''>
+                <CardWithPhoto title = 'javascript' src='{jsLogo}'>
                     <div>
                         <progress value=0.8 ></progress>
                     </div>
                 </CardWithPhoto>
-                <CardWithPhoto title = 'react' src=''>
+                <CardWithPhoto title = 'react' src='{reactLogo}'>
                     <div>
                         <progress value=0.7 ></progress>
                     </div>
                 </CardWithPhoto>
-                <CardWithPhoto title = 'nodejs' src=''>
+                <CardWithPhoto title = 'nodejs' src='{nodeLogo}'>
                     <div>
                         <progress value=0.8 ></progress>
                     </div>
                 </CardWithPhoto>
-                <CardWithPhoto title = 'express' src=''>
+                <CardWithPhoto title = 'express' src='{expressLogo}'>
                     <div>
                         <progress value=0.9 ></progress>
                     </div>
                 </CardWithPhoto>
-                <CardWithPhoto title = 'tailwindcss' src=''>
+                <CardWithPhoto title = 'tailwindcss' src='{tailwindLogo}'>
                     <div>
                         <progress value=0.6 ></progress>
                     </div>

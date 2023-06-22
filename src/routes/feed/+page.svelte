@@ -10,37 +10,46 @@
     import image3 from '$lib/image/11.jpg'
     import image4 from '$lib/image/12.jpg'
     import { post } from "../../stores/post";
+	import { text } from '@sveltejs/kit';
     $post = [
         {
+            id: 1,
             title: 'First post',
             description: 'The first post description',
             url: image1,
             likesNum: 10,
-            repostNum: 1,
+            liked: true,
+            repostsNum: 1,
             commentsNum: 3
         },
         {
+            id: 2,
             title: 'Second post',
             description: 'The first post description',
             url: image2,
             likesNum: 100,
-            repostNum: 10,
+            liked: false,
+            repostsNum: 10,
             commentsNum: 31
         },
         {
+            id: 3,
             title: 'Third post',
             description: 'The first post description',
             url: image3,
             likesNum: 100,
-            repostNum: 11,
+            liked: false,
+            repostsNum: 10,
             commentsNum: 13
         },
         {
+            id: 4,
             title: 'Furth post',
             description: 'The first post description',
             url: image4,
             likesNum: 10,
-            repostNum: 4,
+            liked: false,
+            repostsNum: 10,
             commentsNum: 33
         },
     ]
@@ -58,13 +67,16 @@
     <div class=" col-span-6   justify-center ">
         <StartApost></StartApost>
         {#each $post as pt}
-            <Post img="{pt.url}" text='{pt.description}'></Post>
-             
-            
+            <Post id = {pt.id} img="{userIcon}" title='{pt.title}' text = '{pt.description}'>
+                <div>
+                    {#if pt.url}
+                        <div>
+                            <img src="{pt.url}" alt="post">
+                        </div>
+                    {/if}
+                </div>
+            </Post>
         {/each}
-        <Post img="{image2}" text="this is my second post" ></Post>
-        <Post img="{image3}" text="this is my third post" ></Post>
-        <Post img="{image4}" text="this is my forth post" ></Post>
     </div>
     <div class=" col-span-3 flex justify-center">
         <Card title='add to your favorite'>
