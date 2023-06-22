@@ -67,6 +67,12 @@
                     it can help you to customize easily and fast 
                 </p>
             </CardWithPhoto>
+            <CardWithPhoto title='linkedin Profile' src='{userIcon}'>
+                <p class="p-2">
+                    Linked in profile is the fronted of linkedin website,
+                    it has been build to have a local and castomized version of my linkedin profile
+                </p>
+            </CardWithPhoto>
         </Card>
         <Card title ='Education'>
             <CardWithPhoto title='Kabul university' src='{userIcon}'>
