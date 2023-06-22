@@ -1,4 +1,4 @@
-<script lang='ts'>
+<hscript lang='ts'>
     import Avatar from "./Avatar.svelte";
     import optionIcon from '../icon/options.svg'
     import userIcon from '../icon/user.svg'

@@ -4,6 +4,9 @@
     import Card from "$lib/components/Card.svelte";
     import CardWithPhoto from "$lib/components/CardWithPhoto.svelte";
     import userIcon from '$lib/icon/user.svg'
+    
+
+
 
 </script>
 

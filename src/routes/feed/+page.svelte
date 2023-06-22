@@ -9,6 +9,43 @@
     import image2 from '$lib/image/10.jpg'
     import image3 from '$lib/image/11.jpg'
     import image4 from '$lib/image/12.jpg'
+    import { post } from "../../stores/post";
+    $post = [
+        {
+            title: 'First post',
+            description: 'The first post description',
+            url: image1,
+            likesNum: 10,
+            repostNum: 1,
+            commentsNum: 3
+        },
+        {
+            title: 'Second post',
+            description: 'The first post description',
+            url: image2,
+            likesNum: 100,
+            repostNum: 10,
+            commentsNum: 31
+        },
+        {
+            title: 'Third post',
+            description: 'The first post description',
+            url: image3,
+            likesNum: 100,
+            repostNum: 11,
+            commentsNum: 13
+        },
+        {
+            title: 'Furth post',
+            description: 'The first post description',
+            url: image4,
+            likesNum: 10,
+            repostNum: 4,
+            commentsNum: 33
+        },
+    ]
+
+
 
 </script>
 <div class="grid grid-cols-12 "> 
@@ -20,7 +57,11 @@
     </div>
     <div class=" col-span-6   justify-center ">
         <StartApost></StartApost>
-        <Post img="{image1}" text='this is my firs post'></Post>
+        {#each $post as pt}
+            <Post img="{pt.url}" text='{pt.description}'></Post>
+             
+            
+        {/each}
         <Post img="{image2}" text="this is my second post" ></Post>
         <Post img="{image3}" text="this is my third post" ></Post>
         <Post img="{image4}" text="this is my forth post" ></Post>

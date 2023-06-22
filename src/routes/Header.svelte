@@ -10,7 +10,7 @@
   import HeaderItem from '../lib/components/HeaderItem.svelte'
   import searchIcon from '../lib/icon/search.svg'
   import userIcon from '../lib/icon/user.svg'
-  import { page } from '../stores/page'
+  import { page } from '../stores/post'
 
 
 
